@@ -13,13 +13,11 @@
 ### windows
 
 *   step1 win+r 打开 cmd，进入某路径（如 D:\）
-*   step2 下载项目
-    `git clone https://github.com/Cyloving/musicdown.git`
-*   step3 跳过自动下载 Chromium
-    `set PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1`
-*   step4 npm install
-*   step5 手动下载 Chromium [https://download-chromium.appspot.com/](https://download-chromium.appspot.com/)
-*   step6 npm start
+*   step2 git clone 仓库
+*   step3 set PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1 跳过自动下载 Chromium
+*   step4 npm install 安装依赖
+*   step5 [https://download-chromium.appspot.com/](https://download-chromium.appspot.com/) 手动下载 Chromium
+*   step6 npm start 运行项目
 *   step7 下载完成后，会放到项目文件目录下以 YYYY-MM-DD ( 如 2018-01-01 ) 命名的文件夹里
 
 ## 版本信息
