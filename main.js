@@ -10,7 +10,7 @@ const NEXT_SELECTOR = '#g_player > div.btns > a.nxt';
 (async () => {
     const browser = await puppeteer.launch({
         executablePath: './chrome/chrome.exe',
-        headless: false
+        headless: true
     });
     const page = await browser.newPage();
     await page.goto('https://music.163.com/#/discover/toplist?id=1978921795');
